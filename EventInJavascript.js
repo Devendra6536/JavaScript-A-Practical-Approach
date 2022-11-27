@@ -15,3 +15,8 @@ function keyPressFucntion(){
     var a  = document.getElementById("key").value;
     document.write("You pressed " + a);
 }
+var a = 1;
+for(;a<=10;){
+    document.write("Devendra Kumar Pal</br>");
+    a++;
+}
