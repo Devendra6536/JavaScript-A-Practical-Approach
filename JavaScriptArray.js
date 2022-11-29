@@ -116,3 +116,30 @@ a.push("Promod");
 a.push("Promod");
 a.push("Promod");
 document.write(a +" "+"<br>");
+
+
+var a =["Dk","puneet","Abdesh","vijay"];
+document.write(a +" "+"<br>");
+a.shift();
+document.write(a +" "+"<br>");
+a.unshift("Devendra kumar pal garhikhanpur budaun uttar pradesh india ")
+document.write(a +" "+"<br>");
+
+
+var a =["Dk","puneet","Abdesh","vijay"];
+var b =[" Devendra Kumar ","puneet","Abdesh","vijay"];
+// var b = a.concat("rajeev","Sanjeev");
+document.write(a.concat(b) +" "+"<br>");
+
+var a =["Dk","puneet","Abdesh","vijay"];
+var c = a.join("/");
+document.write(c +" "+"<br>");
+
+var a =["Dk","puneet","Abdesh","vijay"];
+document.write(a.slice(1,4) +" "+"<br>");
+document.write(a.slice(0) +" "+"<br>");
+document.write(a.slice(-3) +" "+"<br>");
+document.write(a.slice(-3,-2) +" "+"<br>");
+
+a.splice(2,0,"Priya","kajal","Vishakha");
+document.write(a +" "+"<br>");
