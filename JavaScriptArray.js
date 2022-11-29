@@ -101,3 +101,18 @@ for(var i = 0 ; i<=9;i++){
 }
 document.write("</table>");
 document.write("</center>");
+
+
+
+var a =["Dk","puneet","Abdesh","vijay"];
+document.write(a+"<br>");
+delete a[0];
+document.write(a);
+var a =["Dk","puneet","Abdesh","vijay"];
+document.write(a.sort()+"<br>");
+document.write(a.reverse()+"<br>");
+document.write(a.pop()+"<br>");
+a.push("Promod");
+a.push("Promod");
+a.push("Promod");
+document.write(a +" "+"<br>");
