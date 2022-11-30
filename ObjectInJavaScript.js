@@ -15,6 +15,12 @@ var user = {
         pin:202523
     }
 }
+
+for( var key in user){
+    document.write(key+" "+user[key]+"<br>")
+}
+
+
 document.write(user.Name+"  ");
 document.write(user.Age+"  ");
 document.write(user.village+" ");
@@ -45,3 +51,33 @@ var student =[
 student.forEach(function(name){
     document.write(name.name+" "+ name.rollNo+"<br>");
 })
+
+
+
+
+const a = [10,25,41,98,36];
+document.write(a+"<br>");
+a[1]= 14;
+document.write(a+"<br>");
+
+
+const users = {
+    name:"Dev",
+    age:48
+};
+
+users.name = "Ab";
+document.write(users.name+"  ");
+
+
+var user = {
+    Name: "Devendra",
+    Age : 18,
+    village : "garhikhanpur",
+    District: "Budaun"
+}
+
+document.write("<br><br>")
+for( var key in user){
+    document.write(key+" : "+user[key]+"<br>")
+}
