@@ -84,6 +84,6 @@ document.querySelector("#wrapper").style.border="5px solid yellow";
 document.querySelector("#wrapper").style.color="yellow";
 document.querySelector("#wrapper").style.opacity="0.7";
 
-document.querySelector("#wrapper").className = "abc container";
+document.querySelector("#wrapper").className = "abc container"; 
 element = document.querySelector(".xyz").style.backgroundColor;
 console.log(element);
